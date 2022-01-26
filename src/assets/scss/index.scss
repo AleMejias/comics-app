@@ -206,19 +206,19 @@ ul,ol{
     }
     .marvel-screen__card{
         position: relative;
-        -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
         margin: 3rem 1rem;
-        -webkit-transition: .7s ease;
         transition: .7s transform ease;
-        opacity : 1;
+        // opacity : 1;
         animation: opacity 0.5s linear;
+        -webkit-transition: .7s ease;
+        -webkit-transform-style: preserve-3d;
         svg{
             position: absolute;
             font-size: 1.6rem;
             color: $redMarvel;
             background: $darkLight;
-            border-radius: 100%;
+            border-radius: 50%;
             border: 1px solid $darkLight;
             transition: 0.3s all ease;
         }
@@ -233,8 +233,8 @@ ul,ol{
             top: 0;
             left: 0;
             height: auto;
-            -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
         }
         .marvel-screen__card-front{
             height: 100%;
@@ -242,11 +242,11 @@ ul,ol{
             z-index: -1;
         }
         .marvel-screen__card-back{
-            -webkit-transform: rotateY(180deg);
-            transform: rotateY(180deg);
             background-color: $light;
             height: 100%;
             padding: 15px;
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
             z-index: -1;
             .card-title{
                 color: $darkLight;
