@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/comics-app/static/css/main.1ea8e3d0.css",
+    "main.css": "/comics-app/static/css/main.a26f70a3.css",
     "main.js": "/comics-app/static/js/main.82083d1e.js",
     "static/media/home-background.png": "/comics-app/static/media/home-background.779854d8d232909570d1.png",
     "index.html": "/comics-app/index.html",
-    "main.1ea8e3d0.css.map": "/comics-app/static/css/main.1ea8e3d0.css.map",
+    "main.a26f70a3.css.map": "/comics-app/static/css/main.a26f70a3.css.map",
     "main.82083d1e.js.map": "/comics-app/static/js/main.82083d1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ea8e3d0.css",
+    "static/css/main.a26f70a3.css",
     "static/js/main.82083d1e.js"
   ]
 }
