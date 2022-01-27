@@ -220,7 +220,7 @@ ul,ol{
             background: $darkLight;
             border-radius: 50%;
             border: 1px solid $darkLight;
-            transition: 0.3s all ease;
+            transition: 0.7s all ease;
         }
         svg:hover{
             background: $light;
@@ -247,7 +247,7 @@ ul,ol{
             padding: 15px;
             transform: rotateY(180deg);
             -webkit-transform: rotateY(180deg);
-            z-index: -1;
+            z-index: 1;
             .card-title{
                 color: $darkLight;
             }

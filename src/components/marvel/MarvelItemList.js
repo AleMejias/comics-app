@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { NavLink } from "react-router-dom";
 
-import { FaArrowAltCircleRight  } from "react-icons/fa";
+import { BsFillArrowRightCircleFill  } from "react-icons/bs";
 
 export const MarvelItemList = ({ heroe , index}) => {
     const [ collapse , setCollapse ] = useState(false);
@@ -57,7 +57,7 @@ export const MarvelItemList = ({ heroe , index}) => {
                         </NavLink>
                     </ul>
                 </div>
-                <FaArrowAltCircleRight
+                <BsFillArrowRightCircleFill
                     className="" type="button"
                     onClick={() => {
                             setCollapse(!collapse)
@@ -67,7 +67,7 @@ export const MarvelItemList = ({ heroe , index}) => {
                     style={collapse ? {right:"-25px",bottom:"-20px"} : { left:"-25px",bottom:"-20px" } }
                     title={collapse ? 'Ocultar Detalles' : 'Mostrar Detalles'}
                 >
-                </FaArrowAltCircleRight>
+                </BsFillArrowRightCircleFill>
             </div>
         </>
     );
